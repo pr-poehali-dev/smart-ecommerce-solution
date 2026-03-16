@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Возможности
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Всё для вашего контроля</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Цифровые журналы",
+              description: "Все обязательные HACCP-журналы в одном приложении: температурный контроль, дезинфекция, входной контроль сырья и другие",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Уведомления и напоминания",
+              description: "Автоматические напоминания для персонала о плановых проверках, чтобы ни одна запись не была пропущена",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Отчёты и аналитика",
+              description: "Готовые отчёты для проверяющих органов в один клик. История всех записей всегда под рукой",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Мультиобъектность",
+              description: "Управляйте несколькими точками (кафе, цехами, складами) из одного приложения с разграничением прав доступа",
               direction: "bottom",
             },
           ].map((service, i) => (
